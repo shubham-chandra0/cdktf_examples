@@ -22,7 +22,10 @@ Note: cdktf_app1 dir is a pre-initialized dir, therefore on usage of the same ab
 # Once the project is initialized, we need to install aws provider library for this project, following commands will help installing the same:
 
 cdktf provider add "aws@~>4.0”
+
 pipenv run pip install cdktf-cdktf-provider-aws
+
+cdktf get
 
 # To deploy the application following command can be used:
 
