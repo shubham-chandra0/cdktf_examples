@@ -19,6 +19,8 @@ This consisting example of aws dynamodb and opensearch domain creation via cdk t
 cdktf init --template="python" --local
 Note: cdktf_app1 dir is a pre-initialized dir, therefore on usage of the same above command wont be needed.
 
+source .venv/bin/activate -> command to activate pipenv
+
 # Once the project is initialized, we need to install aws provider library for this project, following commands will help installing the same:
 
 cdktf provider add "aws@~>4.0”
@@ -34,4 +36,13 @@ cdktf deploy
 # To delete the deployed application stack:
 
 cdktf destroy
+
+
+
+
+# Repository Description
+cdktf_app/ -> Entry point of the project
+cdktf.json -> Placeholder for all the metadata of the project
+help -> lists of frequently used pip libraries and useful pipeve commands
+main.py -> main boiler plate script where all the resources defined
 
