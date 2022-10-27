@@ -41,8 +41,8 @@ cdktf destroy
 
 
 # Repository Description
-cdktf_app/ -> Entry point of the project
-cdktf.json -> Placeholder for all the metadata of the project
-help -> lists of frequently used pip libraries and useful pipeve commands
-main.py -> main boiler plate script where all the resources defined
+- cdktf_app/ -> Entry point of the project
+- cdktf.json -> Placeholder for all the metadata of the project
+- help -> lists of frequently used pip libraries and useful pipeve commands
+- main.py -> main boiler plate script where all the resources defined
 
