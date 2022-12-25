@@ -46,3 +46,5 @@ cdktf destroy
 - help -> lists of frequently used pip libraries and useful pipeve commands
 - main.py -> main boiler plate script where all the resources defined
 
+Reference Document to configure alerts in Opensearch via AWS console: https://aws.amazon.com/blogs/big-data/setting-alerts-in-amazon-elasticsearch-service/
+
