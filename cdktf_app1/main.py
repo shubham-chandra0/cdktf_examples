@@ -8,7 +8,7 @@ class MyStack(TerraformStack):
         super().__init__(scope, id)
         provider.AwsProvider(self,"AWS",region="us-east-1")
         """
-        Setting replica to different region other than the providers region will convert the regular DynamoDB Table to Global table (here replication will be available on east1 and east2)
+        Setting replica to different region other than the providers region will convert the regular DynamoDB Table to Global table (here replication will be available on east1 and east2).
         """
         dynamodb_1 = dynamodb_table.DynamodbTable(self,"myDynamoTable1",
                                                 name="myTable1",attribute=[{"name":"id","type":"S"}],
